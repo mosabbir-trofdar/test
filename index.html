@@ -1,0 +1,199 @@
+<html>
+<head>
+<link rel="stylesheet" href="a.css">
+</head>
+<body>
+<br><br><br>
+
+<div id="visible">
+
+</div>
+
+
+<div id="cover">
+<div id="box6">
+<div class="item6"></div>
+<div class="item6"></div>
+<div class="item6"></div>
+</div>
+</div>
+
+<br>
+<div id="bv">
+<div id="box3">
+<div class="item3"></div>
+<div class="item3"></div>
+<div class="item3"></div>
+<div class="item3"></div>
+</div>
+<div id="box4">
+<div class="item4"></div>
+<div class="item4"></div>
+<div class="item4"></div>
+<div class="item4"></div>
+<div class="item4"></div>
+<div class="item4"></div>
+</div>
+
+<div id="box5">
+<div class="slide1"></div>
+<div class="slide2"></div>
+<div class="slide1"></div>
+<div class="slide2"></div>
+</div>
+</div>
+<br><br>
+
+<div id="box2">
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+<div class="item2"></div>
+</div>
+
+<br><br>
+
+<div id="box">
+<div class="item">
+ <section>
+  <div class="cont">
+   <div class="slider">
+    <div class="card">
+     <div class="img"><img src="a.jpg"></div>
+     <div class="content">
+      <div class="title">POLATOK TUFAN</div>
+       <div class="subtitle">writer:JAGADISH CHANDRA BOSE<br>reader:Al Musanna Tamim</div> 
+      <a href=""><button class="btn">play now</button></a>
+    </div>
+   </div>
+  </div>
+ </section>
+</div>
+
+<div class="item">
+ <section>
+  <div class="cont">
+   <div class="slider">
+    <div class="card">
+     <div class="img"><img src="a.jpg"></div>
+     <div class="content">
+      <div class="title">POLATOK TUFAN</div>
+       <div class="subtitle">writer:JAGADISH CHANDRA BOSE<br>reader:Al Musanna Tamim</div> 
+      <a href=""><button class="btn">play now</button></a>
+    </div>
+   </div>
+  </div>
+ </section>
+</div>
+
+<div class="item">
+ <section>
+  <div class="cont">
+   <div class="slider">
+    <div class="card">
+     <div class="img"><img src="a.jpg"></div>
+     <div class="content">
+      <div class="title">POLATOK TUFAN</div>
+       <div class="subtitle">writer:JAGADISH CHANDRA BOSE<br>reader:Al Musanna Tamim</div> 
+      <a href=""><button class="btn">play now</button></a>
+    </div>
+   </div>
+  </div>
+ </section>
+</div>
+
+
+<div class="item">
+ <section>
+  <div class="cont">
+   <div class="slider">
+    <div class="card"> 
+      <a href=""><button class="btn">play now</button></a>
+    </div>
+   </div>
+  </div>
+ </section>
+</div>
+</div>
+
+<br><br><br>
+<p id="down">INDEED</p>
+<div id="downbox"></div>
+<p id="down1">ESSENTIAL</p>
+<div id="downbox1"></div>
+<p id="down2">BASIC</p>
+<div id="downbox2"></div>
+<br><br><br><br><br><br>
+
+<div id="warper">
+ <img src="a.jpg">
+  <div id="overlay">
+   <div id="content"> PLAY NOW
+  </div>
+ </div>
+</div>
+
+<a href="The Penta.docx">The Penta</a>
+<br><br><br>
+<br><br><br>
+<br><br><br><br><br><br>
+nkmhh
+<script>
+ var lastScrollTop=0;
+visible = document.getElementById("visible"); 
+window.addEventListener("scroll", function (){
+				var scrollTop= window.pageYOffset || document . documentElement.scrollTop;
+				if(scrollTop>lastScrollTop){
+								visible.style.opacity="0";
+								}
+					else{
+									visible.style.opacity="1";
+									}	
+							lastScrollTop=scrollTop;		
+				})
+</script> 
+<script>
+ var down = document.getElementById("down"); 
+var downbox = document.getElementById("downbox"); 
+downbox.style.opacity="0";
+down.onclick=function(){
+				if(downbox.style.opacity=="0"){
+							downbox.style.opacity="1";down1.style.top="102px";down2.style.top="102px";		
+								}
+				else	{			
+							downbox.style.opacity="0";	down1.style.top="0";down2.style.top="0";
+								}
+				}								
+</script>
+<script>
+ var down1 = document.getElementById("down1"); 
+var downbox1 = document.getElementById("downbox1"); 
+downbox1.style.opacity="0";
+down1.onclick=function(){
+				if(downbox1.style.opacity=="0"){
+							downbox1.style.opacity="1";down2.style.top="102px";		
+								}
+				else	{			
+							downbox1.style.opacity="0";	down2.style.top="0";
+								}
+				}								
+</script>
+<script>
+ var down2 = document.getElementById("down2"); 
+var downbox2 = document.getElementById("downbox2"); 
+downbox2.style.opacity="0";
+down2.onclick=function(){
+				if(downbox2.style.opacity=="0"){
+							downbox2.style.opacity="1";
+								}
+				else	{			
+							downbox2.style.opacity="0";	
+								}
+				}								
+</script>
+</body>
+</html>

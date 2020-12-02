@@ -1,0 +1,259 @@
+*{
+margin:0;
+padding:0;				
+font-family:sans-serif;				
+				}		
+@font-face{
+				font-family:abc;
+				src:url(KG.ttf);
+				}				
+#visible{
+				background:#e7e7e7;
+				width:100%;
+	  		height:47px;
+	  		margin-top:587px;
+	  		position:fixed;
+	  		transition:.8s;
+				}				
+input{
+				position:absolute;
+				border-radius:50px;
+				border:0px;
+				height:37px;
+				width:260px;
+				margin-left:17px;	
+				margin-top:5px;
+				background:#ff6846;
+				}		
+#cover{
+			width:100%;
+			height:100px;
+			background:#ff735d;
+				}
+#box{
+			width:100%;
+			height:225px;
+			background:#ffe8e8;
+			overflow-x:scroll;
+			overflow-y:hidden;	
+			display:flex;	
+				}
+#box .item{
+			min-width:180px;
+			height:100%;
+			background:#ff735d;
+			margin-left:5px;	
+			margin-right:5px;	
+				}
+.slider .card{
+				width:180px;
+				height:130px;
+				background:#ff735d;	
+							}
+.slider .card .img{
+				height:150px;
+				width:100%;		
+				}
+.slider .card .img img{
+				height:120px;
+				width:100%;	
+				object-fit:cover;
+					}							
+.title{
+    padding:10px;
+    margin-top:-27px;
+    font-size:16px;
+    }
+.subtitle{
+    padding:10px;
+    margin-top:-17px;
+    font-size:10px;
+    letter-spacing:0px;
+    }   
+.btn{
+   background:none;
+   	outline:none;
+		 border:1px solid #ffffff;
+   	color:#ffffff;
+	  	padding:4px;
+	  	margin-left:10px;
+   cursor:pointer;
+   transition:.1s;
+   position:relative;
+   overflow:hidden;
+   				}	
+.btn:hover{
+				color:white;
+				}
+.btn::before{
+				content:"";
+				position:absolute;
+				left:0px;
+				width:100%;
+				height:0%;
+				background:#ffffff;	
+				z-index:99;
+				transition:.2s;
+				bottom:0;
+				border-radius: 50% 30% 0 0;
+				opacity:.8;
+				}				
+.btn:hover::before{
+				height:190%;
+				}		
+						
+#box2{
+			width:100%;
+			height:50px	;
+			background:#ffe8e8;
+			overflow-x:scroll;
+			overflow-y:hidden;	
+			display:flex;	
+				}
+#box2 .item2{
+			min-width:100px;
+			height:100%;
+			background:#ff735d;
+			margin-left:5px;	
+				}
+				
+#box3{
+			width:100px;
+			height:200px	;
+			background:#ffe8e8;
+			overflow-y:scroll;
+			overflow-x:hidden;	
+			display: block;
+				}
+#box3 .item3{
+			width:100px;
+			height:100px;
+			background:#ff735d;
+			margin-bottom:5px;	
+			margin-left:5px;
+				}
+
+#bv{
+				display:flex;
+				}
+				
+#box4{
+			width:100px;
+			height:200px	;
+			background:#ffe8e8;
+			overflow-y:scroll;
+			overflow-x:hidden;	
+			display: block;
+				}
+#box4 .item4{
+			width:100px;
+			height:70px;
+			background:#ff735d;
+			margin-bottom:5px;	
+			margin-left:5px;
+				}
+
+.slide1{
+			height:200px;
+			width:150px;	
+			background:#ff735d;	
+			margin-left:5px;
+			animation:fade1 8s infinite;
+				}
+.slide2{
+			height:200px;
+			width:150px;	
+			background:#7478ff;	
+			margin-left:5px;
+			animation:fade2 8s infinite;
+				}
+.slide1,.slide2{
+				display:block;
+				position:absolute;	
+				}
+@keyframes fade1{
+				0%{opacity:1;}
+				50%{opacity:0;}
+				100%{opacity:1;}
+				}
+@keyframes fade2{
+				0%{opacity:0;}
+				50%{opacity:1;}
+				100%{opacity:0;}
+				}
+				
+#box6{
+			padding-top:16px;
+			margin-left:200px;	
+			width:135px;
+			height:67px;
+			overflow-x:scroll;
+			overflow-y:hidden;	
+			display:flex;	
+				}
+#box6 .item6{
+			min-width:125px;
+			height:100%;
+			background:#ff452e;
+			margin-left:5px;	
+			border-radius:7px;
+				}
+
+
+#downbox,#downbox1,#downbox2{
+	   position:absolute;
+			transition:.5s;
+			margin:8px;	
+			margin-top:-2px;
+			width:95%;
+			height:100px;
+			background:#ff452e;
+			border-radius:7px;
+				}
+#down,#down1,#down2{
+				margin-left:25px;	
+				font-size:30px;
+				margin-top:0px;
+				position:relative;
+				font-family:abc;
+				width:200px;
+				}
+#warper{
+				position:relative;
+				margin:10px;
+				width:200px;
+				}
+img{
+				display:block;
+				width:200px;
+				position:relative;
+				}
+#content{
+				font-family:abc;
+				top:55%;
+				left:20%;
+				transform: translate(50% 50%);
+				-ms-transform: translate(50% 50%);
+				color:white;
+				font-size:20px;
+				position:absolute;
+				overflow:hidden;
+				
+				}
+#overlay{
+				position:absolute;
+		  	overflow:hidden;	
+				left:0;
+				bottom:0;
+				background:linear-gradient(to bottom, #00000000, #748eff);
+				height:0%;
+				width:200px;
+				transition:.3s;
+				}
+#warper:hover #overlay{
+				height:100%;
+				}
+
+
+
+
