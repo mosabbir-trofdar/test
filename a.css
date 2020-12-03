@@ -3,7 +3,7 @@ margin:0;
 padding:0;				
 font-family:sans-serif;				
 				}	
-@media only screen and (max-width:360px){
+@media only screen and (max-width:720px){
 @font-face{
 				font-family:abc;
 				src:url(KG.ttf);
