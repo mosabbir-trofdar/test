@@ -1,0 +1,218 @@
+*{
+margin:0;
+padding:0;				
+font-family:sans-serif;			
+background-color:black;
+				}		
+@font-face{
+				font-family:abc;
+				src:url(fonts/KG.ttf);
+				}								
+#top{
+		 position:fixed;
+			width:100%;
+			height:10px;
+			z-index:99;
+				}		
+#text1{
+				font-size:25px;
+				color:white;
+				margin-left:10px;
+				margin-top:3px;
+				font-family:abc;
+				}				
+input[type="radio"]{
+				display:none;
+				}
+#player{
+				margin-top:10px;
+				overflow:hidden;
+				}							
+nav{
+			width:358px;
+			overflow-x:scroll;
+			overflow-y:hidden;
+			display:flex;
+			margin-top:5px;
+				}
+nav label img{
+				width:120px;
+				margin-left:4px;
+				}
+.cross{
+				margin-top:0px;
+				}				
+.vid1, .vid2, .vid3, .vid4, .cross{
+				display:none;
+				width:355px;
+				overflow:hidden;
+				}								
+#sliding:checked ~ section .vid1{
+				display:block;
+				}
+#sliding:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}
+#trailer:checked ~ section .vid2{
+				display:block;
+				}
+#trailer:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#jumping:checked ~ section .vid3{
+				display:block;
+				}
+#jumping:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#akash:checked ~ section .vid4{
+				display:block;
+				}
+#akash:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				}							
+#player1{
+				margin-top:10px;
+				overflow:hidden;
+				}							
+nav1{
+			width:358px;
+			overflow-x:scroll;
+			overflow-y:hidden;
+			display:flex;
+			margin-top:5px;
+				}
+nav1 label img{
+				width:150px;
+				height:170;
+				margin-left:4px;
+				}
+.vid5, .vid6, .vid7, .vid8, .cross1{
+				display:none;
+				overflow:hidden;
+				}								
+#a:checked ~ section .vid5{
+				display:block;
+				}
+#a:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#b:checked ~ section .vid6{
+				display:block;
+				}
+#b:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#akash1:checked ~ section .vid7{
+				display:block;
+				}
+#akash1:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#chaiya1:checked ~ section .vid8{
+				display:block;
+				}
+#chaiya1:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}												
+#text2{
+				font-size:28px;
+				color:white;
+				margin-left:10px;
+				margin-top:22px;
+				font-family:abc;
+				position:relative;
+				}				
+.allv{
+				width:360px;
+				height:520px;
+				margin-top:0px;
+				margin-left:5px;
+				overflow-y:scroll;
+			 overflow-x:hidden;
+				}
+.allv label img{
+				margin-top:5px;
+			 overflow:hidden;
+				}
+#alplay{
+				width:100%;
+				}
+#alplay h3{
+			color:white;
+			margin-top:30px;
+			margin-left:20px;	
+				}
+#alplay p{
+			color:white;
+			margin-top:-20px;
+			margin-left:20px;
+			margin-bottom:60px;	
+				}
+.alcross{
+			margin-left:20px;
+			margin-bottom:20px;
+				}				
+.al1, .al2, .al3, .al4, .al5, .al6, .al7{
+				display:none;
+				}   
+#v1:checked ~ section .al1{
+				display:block;
+				margin-top:-930px;
+				position: absolute;
+				}
+
+#v2:checked ~ section .al2{
+				display:block;
+				margin-top:-930px;
+				position:absolute;
+				}
+
+#v3:checked ~ section .al3{
+				display:block;
+				margin-top:-930px;
+				position: absolute;
+				}
+#v4:checked ~ section .al4{
+				display:block;
+				margin-top:-930px;
+				position:relative;
+				}
+#v5:checked ~ section .al5{
+				display:block;
+				margin-top:-930px;
+				position: absolute;
+				}
+#v6:checked ~ section .al6{
+				display:block;
+				margin-top:-930px;
+				position: absolute;
+				}
+#v7:checked ~ section .al7{
+				display:block;
+				margin-top:-930px;
+				position: absolute;
+				}
