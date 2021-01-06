@@ -1,0 +1,183 @@
+<html>
+
+<head>
+ <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+
+<body>
+<div id="contact">
+ <img src="images/bkcont.png">
+ <p><a href="">click here</a></p>
+</div>
+<img src="images/bgb1.jpg" id="back1">
+<img src="images/bgb.jpg" id="back">
+<img src="images/top.jpg" id="top">
+<br>
+
+<div id="bar">
+ <div id="bg">
+  <div id="logo">
+  <img src="images/logo.png">
+  </div>
+  <div id="tag">
+  <div id="m1">
+   <a href="Audio.html">
+    <p>Audio</p></a>
+   <a href="video.html">
+    <p>Video</p></a>
+   <a href="Blog.html">
+    <p id="current">Blog</p></a>
+   <a href="Picture.html">
+    <p>Picture</p></a>
+   </div>
+   <div id="m2">
+   <a href="News.html">
+    <p>News</p></a>
+   <a href="Information.html">
+    <p>Information</p></a>
+   </div>
+  </div>
+  
+   <p id="pt">profiles</p>
+  <div id="profiles">
+    <a href="profile.html">
+     <img src="images/mosabbir.jpg" id="pi"> </a>
+    <a href="profile.html">
+     <img src="images/labib.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/mohiuddin.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/a rafi.jpg" id="pi"></a>
+     <a href="profile.html">
+      <img src="images/rohan.jpg" id="pi"></a>
+     <a href="profile.html">
+   <img src="images/mahdi.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/nishat.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/a rafi.jpg" id="pi"></a>
+     <a href="profile.html">
+      <img src="images/rohan.jpg" id="pi"></a>
+  </div> 
+   <img src="images/qr.png" id="qr">
+ </div>
+</div>
+<img src="images/slider.png" id="slider">
+
+
+
+<div id="mix">
+<div id="mix1">
+<p id="grt1">Editor's choice</p>
+<div id="box1">
+ <div id="item1">
+  <img src="images/penta.jpg">
+ </div>
+ <div id="item1">
+  <img src="images/somaj.jpg">
+ </div>
+ <div id="item1">
+  <img src="images/viral.jpg">
+ </div>
+ <div id="item1">
+  <img src="images/penta.jpg">
+ </div>
+</div>
+
+<p id="grt">Popular</p>
+<div id="box2">
+ <div id="item2">
+  <img src="images/viral.jpg">
+ </div>
+ <div id="item2">
+  <img src="images/somaj.jpg">
+ </div>
+ <div id="item2">
+  <img src="images/dadu.jpg">
+ </div>
+ <div id="item2">
+  <img src="images/protirokkha.jpg">
+ </div>
+</div>
+</div>
+
+<div id="mix2">
+<p id="grt">All Writing</p>
+<div id="box3">
+ <div id="item3">
+  <img src="images/bk1.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk2.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk3.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk4.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk5.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk6.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk1.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk2.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk3.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk4.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk5.jpg">
+ </div>
+ <div id="item3">
+  <img src="images/bk6.jpg">
+ </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script>
+ var slider = document.getElementById("slider");
+var bar = document.getElementById("bar"); 
+slider.onclick=function(){
+				if(bar.style.display=="none"){
+							bar.style.display="block";	
+							slider.style.top="15px";
+								}
+				else	{			
+							bar.style.display="none";	
+							slider.style.top="15px";
+								}
+				}		
+</script>	
+
+<script>
+ var lastScrollTop=0;
+contact = document.getElementById("contact"); 
+window.addEventListener("scroll", function (){
+				var scrollTop= window.pageYOffset || document . documentElement.scrollTop;
+				if(scrollTop>lastScrollTop){
+								contact.style.display="block";
+								}
+					else{
+									contact.style.display="none";
+									}	
+							lastScrollTop=scrollTop;		
+				})
+</script> 
+
+</body>
+</html>
