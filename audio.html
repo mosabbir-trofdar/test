@@ -1,0 +1,298 @@
+<html>
+
+<head>
+ <link rel="stylesheet" type="text/css" href="css/audio.css">
+</head>
+
+<body>
+<div class="ab"></div>
+<img src="images/top.jpg" id="top">
+<br>
+<img src="images/slider wh.png" id="menu">
+<div id="bar">
+ <div id="bg">
+  <div id="logo">
+  <img src="images/logo.png">
+  </div>
+  <div id="ftag">
+  		<a href="home.html">Home</a>		।  
+  		<a href="index.html">Content</a>		।  
+  		<a href="home.html">Contact</a>	   
+  </div>
+  <div id="tag">
+  <div id="mi1">
+   <a href="Audio.html">
+    <p>Audio</p></a>
+   <a href="video.html">
+    <p>Video</p></a>
+   <a href="Blog.html">
+    <p id="current">Writing</p></a>
+   <a href="Picture.html">
+    <p>Picture</p></a>
+   </div>
+   <div id="mi2">
+   <a href="News.html">
+    <p>News</p></a>
+   <a href="Information.html">
+    <p>Information</p></a>
+   </div>
+  </div>
+  <a href="kaunia.html">
+   <img src="images/kaunia.png" id="kaunia"></a>
+   <p id="pt">profiles</p>
+  <div id="profiles">
+    <a href="profile.html">
+     <img src="images/mosabbir.jpg" id="pi"> </a>
+    <a href="profile.html">
+     <img src="images/labib.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/mohiuddin.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/a rafi.jpg" id="pi"></a>
+     <a href="profile.html">
+      <img src="images/rohan.jpg" id="pi"></a>
+     <a href="profile.html">
+   <img src="images/mahdi.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/nishat.jpg" id="pi"></a>
+    <a href="profile.html">
+     <img src="images/a rafi.jpg" id="pi"></a>
+     <a href="profile.html">
+      <img src="images/rohan.jpg" id="pi"></a>
+  </div> 
+   
+   <p id="disc">connect with us</p>
+		  	<div id="conimg">
+		   	<a href="">
+		   		<img src="images/facebook.png"></a>
+		   	<a href="">
+		   		<img src="images/messenger.png"></a>
+		  		<a href="">
+		   		<img src="images/insta.png"></a>
+		  		<a href="">
+		   		<img src="images/twitter.png"></a>
+		  	</div>
+		  	<div id="email">
+		  			<p id="em">email</p>		
+		  			<a href="mailto: shishuniketonamarschool2000@gmail.com"><p id="mail">shishuniketonamarschool2000<br>@gmail.com</p></a>		
+		  	</div>
+		  	<img src="images/qr.png" id="qr">
+ </div>
+</div>
+
+<div id="audimg"></div>
+<div id="main">
+<img id="track_image"> 
+<div id="sinfo">
+ <p id="title">title.mp3</p>
+ <p id="artist">Artist name</p>
+</div>
+
+<div id="controls">
+ <button onclick="previous_song()" id="pre">
+  <img src="images/previous.png" width="30">
+ </button> 
+ <button onclick="justplay()" id="play">
+  <img src="images/pause.png" width="30">
+ </button>
+ <button onclick="next_song()" id="next">
+  <img src="images/next.png" width="30">
+ </button>
+</div>
+
+<div class="duration"> 
+   <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()"> 
+ </div> 
+</div>
+
+
+<div id="all">
+<p>^<br>swipe up<br>to view all categories</p>
+
+<div id="text1">AudioBook</div>
+
+<input type="radio" id="polatok" name="x">
+ <input type="radio" id="amor" name="x">
+ <input type="radio" id="captain" name="x">
+ <input type="radio" id="asombov" name="x">
+ 
+<div id="box1">
+ <div id="item1">
+  <label for="polatok" 
+id="polatok"><img src="images/polatok.jpg">
+  </label>
+ </div>
+ <div id="item1">
+  <label for="amor" 
+id="amor"><img src="images/amor.jpg">
+  </label>
+ </div>
+ <div id="item1">
+  <label for="captain" 
+id="captain"><img src="images/captain.jpg">
+  </label>
+ </div>
+ <div id="item1">
+  <label for="asombov" 
+id="asombov"><img src="images/asombov.jpg">
+  </label>
+ </div>
+</div>
+
+
+<section id="b1">
+<div class="polatok">
+ <audio id="audio">
+  <source src="audio/Polatok Tufan.mp3">
+  </source>
+ </audio>
+ <img src="images/polatok1.jpg" id="img">
+ <div id="control" onclick="con()">
+  <img src="images/pause.png">
+ </div>
+ <div id="trtext">
+  <h4>AudioBook</h4>
+   <h6>Asombov Kotha.mp3<br>
+    Al Musanna Tamim
+   </h6>
+ </div>
+ <div class="duration1"> 
+   <input type="range" min="0" max="100" value="0" id="duration_slider1" onchange="change_duration1()"> 
+ </div> 
+  <a href="" id="x">
+  <img src="images/x.png" width="20">
+  </a>
+</div>
+<div class="amor">
+ <audio id="audio1">
+  <source src="audio/amor.mp3">
+  </source>
+ </audio>
+ <img src="images/amor1.jpg" id="img">
+ <div id="control1" onclick="con1()">
+  <img src="images/pause.png">
+ </div>
+ <div id="trtext">
+  <h4>AudioBook</h4>
+   <h6>Asombov Kotha.mp3<br>
+    Al Musanna Tamim
+   </h6>
+ </div>
+ <div class="duration1"> 
+   <input type="range" min="0" max="100" value="0" id="duration_slider1" onchange="change_duration1()"> 
+ </div> 
+  <a href="" id="x">
+  <img src="images/x.png" width="20">
+  </a>
+</div>
+<div class="captain">
+ <audio id="audio2">
+  <source src="audio/captain.mp3">
+  </source>
+ </audio>
+ <img src="images/captain1.jpg" id="img">
+ <div id="control2" onclick="con2()">
+  <img src="images/pause.png">
+ </div>
+ <div id="trtext">
+  <h4>AudioBook</h4>
+   <h6>Asombov Kotha.mp3<br>
+    Al Musanna Tamim
+   </h6>
+ </div>
+ <div class="duration1"> 
+   <input type="range" min="0" max="100" value="0" id="duration_slider1" onchange="change_duration1()"> 
+ </div> 
+  <a href="" id="x">
+  <img src="images/x.png" width="20">
+  </a>
+</div>
+<div class="asombov">
+ <audio id="audio2">
+  <source src="audio/captain.mp3">
+  </source>
+ </audio>
+ <img src="images/asombov1.jpg" id="img">
+ <div id="control2" onclick="con2()">
+  <img src="images/pause.png">
+ </div>
+ <div id="trtext">
+  <h4>AudioBook</h4>
+   <h6>Asombov Kotha.mp3<br>
+    Al Musanna Tamim
+   </h6>
+ </div>
+ <div class="duration1"> 
+   <input type="range" min="0" max="100" value="0" id="duration_slider1" onchange="change_duration1()"> 
+ </div> 
+  <a href="" id="x">
+  <img src="images/x.png" width="20">
+  </a>
+ </div>
+<section>
+<script src="script1.js"></script>
+
+
+
+<div id="mix">
+<div id="m1">
+<div id="mt">Songs</div>
+<div id="box2">
+ <div id="item">
+  <img src="images/polatok.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/amor.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/captain.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/asombov.jpg" id="">
+ </div>
+</div>
+</div>
+
+<div id="m2">
+<div id="mt">Songs</div>
+<div id="box3">
+ <div id="item">
+  <img src="images/asombov.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/captain.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/amor.jpg" id="">
+ </div>
+ <div id="item">
+  <img src="images/polatok.jpg" id="">
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<script>
+ var menu = document.getElementById("menu");
+var bar = document.getElementById("bar"); 
+menu.onclick=function(){
+				if(bar.style.display=="none"){
+							bar.style.display="block";	
+							menu.style.top="15px";
+								}
+				else	{			
+							bar.style.display="none";	
+							menu.style.top="15px";
+								}
+				}		
+</script>	
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

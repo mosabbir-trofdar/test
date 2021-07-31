@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;				
+font-family:sans-serif;			
+}
+@font-face{
+				font-family:abc;
+				src:url(fonts/KG.ttf);
+				}			
+#top{
+		 position:fixed;
+			width:100%;
+			height:10px;
+			z-index:99;
+				}	
+#id{
+				}
+#idimg{
+			margin-left:130px;	
+			margin-top:5px;	
+			width:100px;
+			border-radius:60px;
+			border:2px solid #ff735d;
+				}
+#idp{
+			font-family:abc;
+			font-size:22px;	
+			text-align:center;
+			margin-top:5px;
+				}
+#fid{
+			margin-left:115px;	
+			margin-top:-1px;
+			width:130px;
+			height:25px;
+			border-radius:30px;
+			background:#4660ff;
+				}
+#fba{
+			text-decoration:none;
+				}				
+#fba #fid:hover{
+		 background:#ff735d;		
+			}							
+#fb{
+			margin-top:3.5px;	
+			margin-left:7px;	
+			width:18px;	
+				}			
+#fba #fbp{
+				font-size:12px;
+				color:white;
+				margin-top:-16px;
+				margin-left:30px;
+				}					
+#qr{
+			width:30px;	
+			margin-left:310px;	
+			margin-top:-80px;
+				}
+#cnb{
+			margin-top:15px;	
+			margin-left:20px;	
+			font-family:abc;
+			font-size:18px;
+				}				
+#aud,#vid,#blg,#pic{
+			display:flex;	
+				}
+#cn{
+			margin-top:5px;	
+		 margin-left:47px;		
+				}
+#aud p, #vid p, #blg p, #pic p{
+		font-family:sans-serif;	
+				}				
+#au,#vi,#bl,#pi{
+			margin-top:5px;	
+  		margin-left:20px;	
+  		height:10px;
+  		border-radius:30px;
+			background:#ff735d;
+				}
+#au{
+			width:30px;	
+				}				
+#vi{
+		width:100px;		
+				}
+#bl{
+		width:80px;		
+		margin-left:29.1px;
+				}
+#pi{
+		width:130px;	
+		margin-left:10px;
+				}
+
+
+
+
+
+
+
+

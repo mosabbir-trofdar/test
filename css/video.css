@@ -1,0 +1,832 @@
+*{
+margin:0;
+padding:0;				
+font-family:sans-serif;	
+				}		
+@font-face{
+				font-family:abc;
+				src:url(../fonts/KG.ttf);
+				}			
+#back{
+			width:100%;
+			height:153%;
+			background-color:black;
+			z-index:-99;	
+			margin-top:-10px;
+			position:absolute;			
+				}						
+#slider{
+				width:35px;
+				margin-left:85%;
+				z-index:99;
+				position:fixed;
+				}				
+#bar{
+			display:none;
+			margin-top:-10px;	
+			z-index:-1;	
+			width:100%;
+			height:100px;
+			animation:slide-up .3s ease;
+				}			
+@keyframes slide-up{
+				0%
+				{transform: translateY(-150px);}
+				100%
+				{transform: translateY(0px);}
+				}													
+#bg{
+			width:100%;
+			height:100px;	
+			background:linear-gradient(to top, #00000000 ,#5dc6ff);			
+				}					
+#logo{
+	   width:100px;
+				}
+#logo img{
+				width:100px;
+				padding:10 0 0 10px;
+				}								
+#tag {
+		margin-left:42.5%;	
+   margin-top:-30px;
+   width:60px;
+   display:flex;
+   }		
+#mi1{
+			display:block;	
+				}   
+#mi2{
+			display:block;	
+				}   				
+#tag a{
+				text-decoration:none;
+				} 		  		
+#tag a p{
+				font-family:abc;
+				margin-top:5px;
+				font-size:9px;
+				margin-left:12px;
+				width:60px;
+				color:black;
+				}				
+#tag a p:hover{
+				background:#55c1ff;
+				width:60px;
+				padding:4 0 1 4px;
+				color:white;
+				}										
+#current{
+				padding:4 0 1 4px;
+				background:#40b6ff;
+				width:60px;
+				color:black;
+				}						
+#pt,#kaunia,#ad,#disc,#conimg,#email{
+			display:none;
+				}				
+#profiles{
+				margin-top:-35px;
+				margin-left:8px;
+				width:42%;
+				height:40px;
+				overflow-x:scroll;
+				overflow-y:hidden;
+				display:flex;
+				}
+#pi{
+			width:33px;	
+			height:33px;
+			border-radius:45px;	
+			margin-right:5px;
+				}
+#profiles a #pi:hover{
+				width:36px;
+				height:36px;
+				border:2px solid #ff735d;
+				}
+#qr{
+			width:20px;
+			margin-left:90%;	
+			margin-top:-20px;
+			background:white;
+				}    											
+#top{
+		 position:fixed;
+			width:100%;
+			height:10px;
+			z-index:99;
+				}		
+#mall{
+				margin-top:-7px;
+				background-color:black;
+				position:relative;
+				}				
+#text1{
+				font-size:25px;
+				color:white;
+				margin-left:10px;
+				margin-top:3px;
+				font-family:abc;
+				}				
+input[type="radio"]{
+				display:none;
+				}
+#player{
+				margin-top:10px;
+				overflow:hidden;
+				background-color:black;
+				}			
+nav::-webkit-scrollbar{
+				display:hidden;
+     }																			
+nav{
+			width:100%;
+			overflow-x:scroll;
+			overflow-y:hidden;
+			display:flex;
+			margin-top:5px;
+			margin-left:-4px;
+				}
+nav label img{
+				width:120px;
+				margin-left:4px;
+				}		
+.vida, .vidb, .vidc, .vidd, .vide, .cross{
+				display:none;		
+				overflow:hidden;
+      background-color:black;
+				}								
+#a1:checked ~ section .vida{
+				display:block;
+				}
+#a1:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}
+#a2:checked ~ section .vidb{
+				display:block;
+				}
+#a2:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#a3:checked ~ section .vidc{
+				display:block;
+				}
+#a3:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#a4:checked ~ section .vidd{
+				display:block;
+				}
+#a4:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}					
+#a5:checked ~ section .vide{
+				display:block;
+				}
+#a5:checked ~ section .cross{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}											
+#player1{
+				margin-top:10px;
+				overflow:hidden;
+				background-color:black;
+				}					
+nav1::-webkit-scrollbar{
+				display:hidden;
+     }																	
+nav1{
+			width:100%;
+			overflow-x:scroll;
+			overflow-y:hidden;
+			display:flex;
+			margin-top:5px;
+			margin-left:-4px;
+				}
+nav1 label img{
+				width:150px;
+				height:170;
+				margin-left:4px;
+				}
+.vid5, .vid6, .vid7, .vid8, .vid9, .cross1{
+				display:none;
+				overflow:hidden;
+				}								
+#a:checked ~ section .vid5{
+				display:block;
+				}
+#a:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#b:checked ~ section .vid6{
+				display:block;
+				}
+#b:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#c:checked ~ section .vid7{
+				display:block;
+				}
+#c:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}				
+#d:checked ~ section .vid8{
+				display:block;
+				}
+#d:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}	
+#e:checked ~ section .vid9{
+				display:block;
+				}		
+#e:checked ~ section .cross1{
+				display:block;
+				width:20px;
+				margin-left:15px;
+				margin-bottom:8px;
+				}																		
+#text2{
+				font-size:28px;
+				color:white;
+				margin-left:10px;
+				margin-top:5px;
+				font-family:abc;
+				position:relative;
+				}			
+.allv::-webkit-scrollbar{
+				display:hidden;
+     }																
+.allv{
+				width:99%;
+				height:560px;
+				margin-top:0px;
+				margin-left:.5%;
+				overflow-y:scroll;
+			 overflow-x:hidden;
+				}
+.allv label img{
+     width:100%;
+				margin-top:5px;
+			 overflow:hidden;
+				}
+#alplay{
+				width:100%;
+				background-color:black;
+				}
+#alplay h3{
+			color:white;
+			padding-left:15px;	
+			margin-top:10px;
+			font-family:abc;
+				}
+#alplay p{
+			color:white;
+			padding-left:15px;
+			margin-top:-22px;
+			margin-bottom:75px;
+				}
+.alcross{
+			margin-left:20px;
+			margin-bottom:20px;
+				}				
+.al1, .al2, .al3, .al4, .al5, .al6, .al7, .al8, .al9, .al10, .al11, .al12, .al13, .al14, .al15, .al16, .al17, .al18, .al18, .al19{
+				display:none;
+				background-color:black;
+				}   
+#v1:checked ~ section .al1{
+				display:block;
+				margin-top:-945px;
+				position:absolute;
+				}
+#v1:checked ~ section .alcross{
+				margin-top:-13px;
+				}				
+#v2:checked ~ section .al2{
+				display:block;
+				margin-top:-945px;
+				position:absolute;
+				}
+#v2:checked ~ section .alcross{
+				margin-top:-18px;
+				}				
+#v3:checked ~ section .al3{
+				display:block;
+				margin-top:-945px;
+				position:absolute;
+				}
+#v3:checked ~ section .alcross{
+				margin-top:-5px;
+				}				
+#v4:checked ~ section .al4{
+				display:block;
+				margin-top:-945px;
+				position:absolute;
+				}
+#v4:checked ~ section .alcross{
+				margin-top:-17px;
+				}				
+#v5:checked ~ section .al5{
+				display:block;
+				margin-top:-945px;
+				position:absolute;
+				}
+#v5:checked ~ section .alcross{
+				margin-top:-30px;
+				}							
+#v6:checked ~ section .al6{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}				
+#v6:checked ~ section .alcross{
+				margin-top:-22px;
+				}										
+#v7:checked ~ section .al7{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}
+#v7:checked ~ section .alcross{
+				margin-top:-20px;
+				}			
+#v8:checked ~ section .al8{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}				
+#v8:checked ~ section .alcross{
+				margin-top:-22px;
+				}										
+#v9:checked ~ section .al9{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}
+#v9:checked ~ section .alcross{
+				margin-top:-20px;
+				}							
+#v10:checked ~ section .al10{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}				
+#v10:checked ~ section .alcross{
+				margin-top:-22px;
+				}										
+#v11:checked ~ section .al11{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}
+#v11:checked ~ section .alcross{
+				margin-top:-20px;
+				}			
+#v12:checked ~ section .al12{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}				
+#v12:checked ~ section .alcross{
+				margin-top:-22px;
+				}										
+#v13:checked ~ section .al13{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}
+#v13:checked ~ section .alcross{
+				margin-top:-20px;
+				}			
+#v14:checked ~ section .al14{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}				
+#v14:checked ~ section .alcross{
+				margin-top:-22px;
+				}										
+#v15:checked ~ section .al15{
+				display:block;
+				margin-top:-945px;
+				position: absolute;
+				}
+#v15:checked ~ section .alcross{
+				margin-top:-20px;
+				}			
+
+#foot{
+			margin-top:-45px;
+			position:absolute;	
+			width:100%;
+			height:50px;
+			background:linear-gradient(to bottom, #00000000 ,black);			
+}									
+#wlogo{
+			width:30%;	
+			margin-left:35%;
+			margin-top:18px;
+}
+
+
+
+
+@media only screen and (min-width:768px){
+#slider,#wlogo{
+				display:none;
+				}	
+#back{
+			width:101%;		
+			height:193%;		
+			}
+#bar{
+			display:block;	
+			margin-top:-10px;	
+			width:24%;
+				}
+#bg{
+			width:100%;
+			height:660px;	
+			background:linear-gradient(to left, #00000000 ,#5dc6ff);			
+				}	
+#kaunia{
+				display:block;
+				width:70%;
+				margin-left:10%;
+				margin-top:15px;
+}				
+#logo{
+	   width:90%;
+				}
+#logo img{
+				width:100%;
+				padding:30 8 8 8px;
+				}								
+#tag{
+   margin-top:10px;
+   width:110px;
+   display:block;
+   margin-left:-0px;	
+   }		 
+#tag a{
+				text-decoration:none;
+				} 		  		   
+#tag a p:hover{
+				background:#55c1ff;
+				width:110px;
+				padding:8 0 3 8px;
+				}				  		
+#tag a p{
+				font-family:abc;
+				margin-top:6px;
+				font-size:15px;
+				margin-left:33px;
+				width:110px;
+				}			
+#current{
+				padding:8 0 3 8px;
+				background:#40b6ff;
+				width:110px;
+				color:black;
+				}										
+#qr{
+			width:35px;
+			margin-left:180px;	
+			margin-top:20px;
+			background:white;
+				}
+#pt{
+			font-size:16px;
+			margin-top:17px;
+			margin-left:12px;
+			display:block;
+				}				
+#profiles{
+				margin-top:5px;
+				margin-left:13px;
+				width:85%;
+				height:57px;
+				overflow-x:scroll;
+				overflow-y:hidden;
+				display:flex;
+				}
+#pi{
+			width:46px;	
+			height:46px;
+			border-radius:45px;	
+			margin-right:5px;
+				}
+#profiles a #pi:hover{
+				width:50px;
+				height:50px;
+				border:3px solid #ff735d;
+				}  
+#disc{
+				display:block;
+				margin-left:12px;
+				margin-top:12px;
+}
+#conimg{
+				width:85%;
+				display:block;
+				margin-top:5px;
+}
+#conimg img{
+				width:35px;
+				margin-left:12px;
+}
+#email{
+			display:block;
+			width:90%;
+			margin-left:12px;	
+}
+#email a{
+			text-decoration:none;
+			color:white;	
+}
+#em{
+		margin-top:12px;		
+		color:black;
+}
+#email #mail{
+				font-family:abc;
+				font-size:12px;
+				margin-top:5px;
+}
+
+#mall{
+					margin-top:-8.5%;
+					display:flex;
+			   width:75%;
+			   margin-left:25%;
+	}					
+#m1{
+							display:block;
+							width:49%;						
+}	
+#m2{
+							display:block;
+							margin-top:-7px;	
+							width:50%;
+							margin-left:2%;
+}				
+#a:checked ~ section .vid5{
+				display:block;
+				position:absolute;
+				z-index:90;
+				background:black;
+				width:48.6%;
+				height:47.5%;
+				}		
+#a:checked ~ section .cross1{	
+				margin-top:30%;
+				position:absolute;
+				z-index:99;
+				background:black;
+}									
+#b:checked ~ section .vid6{
+				display:block;
+				position:absolute;
+				z-index:90;
+				background:black;
+				width:48.6%;
+				height:47.5%;
+				}		
+#b:checked ~ section .cross1{	
+				margin-top:30%;
+				position:absolute;
+				z-index:99;
+				background:black;
+}							
+#c:checked ~ section .vid7{
+				display:block;
+				position:absolute;
+				z-index:90;
+				background:black;
+				width:48.6%;
+				height:47.5%;
+				}		
+#c:checked ~ section .cross1{	
+				margin-top:30%;
+				position:absolute;
+				z-index:99;
+				background:black;
+}							
+#d:checked ~ section .vid8{
+				display:block;
+				position:absolute;
+				z-index:90;
+				background:black;
+				width:48.6%;
+				height:47.5%;
+				}		
+#d:checked ~ section .cross1{	
+				margin-top:30%;
+				position:absolute;
+				z-index:99;
+				background:black;
+}							
+#e:checked ~ section .vid9{
+				display:block;
+				position:absolute;
+				z-index:90;
+				background:black;
+				width:48.6%;
+				height:47.5%;
+				}			
+#e:checked ~ section .cross1{	
+				margin-top:30%;
+				position:absolute;
+				z-index:99;
+				background:black;
+}																						
+.allv{
+      width:100%;
+				height:603px;
+				overflow-y:scroll;
+			 overflow-x:hidden;
+				}	
+#alplay p{
+			color:white;
+			padding-left:15px;
+			padding-bottom:50px;	
+				}
+	
+#v1:checked ~ section .al1{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position:absolute;
+				}			
+#v1:checked ~ section .alcross{	
+				margin-top:-60px;
+}					
+#v2:checked ~ section .al2{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}			
+#v2:checked ~ section .alcross{
+				margin-top:-60px;
+}										
+#v3:checked ~ section .al3{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v3:checked ~ section .alcross{
+				margin-top:-60px;
+}																
+#v4:checked ~ section .al4{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}		
+#v4:checked ~ section .alcross{
+				margin-top:-60px;
+}															
+#v5:checked ~ section .al5{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}			
+#v5:checked ~ section .alcross{
+				margin-top:-70px;
+}													
+#v6:checked ~ section .al6{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}
+#v6:checked ~ section .alcross{
+				margin-top:-70px;
+}												
+#v7:checked ~ section .al7{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v7:checked ~ section .alcross{
+				margin-top:-60px;
+}								
+#v8:checked ~ section .al8{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}
+#v8:checked ~ section .alcross{
+				margin-top:-70px;
+}												
+#v9:checked ~ section .al9{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v9:checked ~ section .alcross{
+				margin-top:-60px;
+}								
+#v10:checked ~ section .al10{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}
+#v10:checked ~ section .alcross{
+				margin-top:-70px;
+}												
+#v11:checked ~ section .al11{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v11:checked ~ section .alcross{
+				margin-top:-60px;
+}								
+#v12:checked ~ section .al12{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}
+#v12:checked ~ section .alcross{
+				margin-top:-70px;
+}												
+#v13:checked ~ section .al13{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v13:checked ~ section .alcross{
+				margin-top:-60px;
+}								
+#v14:checked ~ section .al14{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}
+#v14:checked ~ section .alcross{
+				margin-top:-70px;
+}												
+#v15:checked ~ section .al15{
+				display:block;
+				margin-top:-88%;
+				margin-left:-51.2%;
+				position: absolute;
+				}				
+#v15:checked ~ section .alcross{
+				margin-top:-60px;
+}								
+
+
+#foot{
+			margin-top:-52px;
+			height:80px;
+			z-index:99;
+}							
+#ad{
+   display:block;
+		width:36.37%;	
+		margin-top:-293px;	
+		margin-left:25%;
+		position:absolute;
+}
+
+		
+				}
