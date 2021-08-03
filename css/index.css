@@ -465,7 +465,7 @@ h3{
 }
 #eliment{
 				display:flex;
-				margin-top:-75px;
+				margin-top:-80px;
 				position:absolute;
 				justify-content:center;
 			  align-items:center;
@@ -476,7 +476,7 @@ h3{
 				margin-left:4%;
 }
 #game{
-    margin-top:-40px; 
+    margin-top:-50px; 
 			margin-left:47%;
 			position:absolute;
 }
@@ -623,7 +623,7 @@ hr{
 				}		
 #footer{
     margin-left:65%;
-			margin-top:-230px;
+			margin-top:-250px;
 			letter-spacing:2px;	
 			font-size:10px;
 			margin-bottom:20%;
