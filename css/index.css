@@ -348,7 +348,7 @@ h3{
 			background:white;		
 }		
 #fulpage #section:nth-child(2){
-			background:linear-gradient(to bottom, #ffffff, #80ffac);		
+			background:linear-gradient(to bottom, #ffffff, #80ffac, #ffffff);		
 }						
 #fulpage #section:nth-child(3){
 			background:linear-gradient(to bottom, #ffffff, #ff9595);			
@@ -457,7 +457,7 @@ h3{
 }
 #behind{
 				width:100%;
-				margin-top:-110px;
+				margin-top:-150px;
 				position:absolute;
 }
 #pcbehind,#fpcbehind,#pctag,#pchbehind{
