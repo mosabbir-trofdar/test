@@ -348,7 +348,7 @@ h3{
 			background:white;		
 }		
 #fulpage #section:nth-child(2){
-			background:linear-gradient(to bottom, #ffffff, #80ffac, #ffffff);		
+			background:linear-gradient(to bottom, #ffffff, #80ffac);		
 }						
 #fulpage #section:nth-child(3){
 			background:linear-gradient(to bottom, #ffffff, #ff9595);			
@@ -465,7 +465,7 @@ h3{
 }
 #eliment{
 				display:flex;
-				margin-top:-35px;
+				margin-top:-60px;
 				position:absolute;
 				justify-content:center;
 			  align-items:center;
