@@ -407,7 +407,12 @@ font-family:sans-serif;
 #box2::-webkit-scrollbar{
 				display:hidden;
      }		     
-	
+#all::-webkit-scrollbar{
+				display:hidden;
+     }		     
+#profiles::-webkit-scrollbar{
+				display:hidden;
+     }			
     				
 				}
 
