@@ -457,7 +457,7 @@ h3{
 }
 #behind{
 				width:100%;
-				margin-top:-130px;
+				margin-top:-140px;
 				position:absolute;
 }
 #pcbehind,#fpcbehind,#pctag,#pchbehind{
@@ -465,7 +465,7 @@ h3{
 }
 #eliment{
 				display:flex;
-				margin-top:-50px;
+				margin-top:-55px;
 				position:absolute;
 				justify-content:center;
 			  align-items:center;
@@ -476,7 +476,7 @@ h3{
 				margin-left:4%;
 }
 #game{
-    margin-top:-3px; 
+    margin-top:-10px; 
 			margin-left:47%;
 			position:absolute;
 }
