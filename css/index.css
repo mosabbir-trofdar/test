@@ -659,7 +659,10 @@ hr{
 }
 #top{
 				height:18px;
-}
+	}
+.c1,.c2{
+	margin-left:15%;
+	}
 #pctag{
 				display:block;
 				width:30%;
