@@ -476,7 +476,7 @@ h3{
 				margin-left:4%;
 }
 #game{
-    margin-top:35px; 
+    margin-top:-40px; 
 			margin-left:47%;
 			position:absolute;
 }
@@ -760,7 +760,7 @@ hr{
 			scroll-snap-align:start;		
 }			
 #border1,#border2,#border3,#border4,#border5,#border6{
-			border:solid 2px #000000;
+			border:solid 5px #000000;
 			border-radius:8px;
 			width:88%;
 			height:85%;
