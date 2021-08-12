@@ -760,7 +760,7 @@ hr{
 			scroll-snap-align:start;		
 }			
 #border1,#border2,#border3,#border4,#border5,#border6{
-			border:solid 5px #000000;
+			border:solid 3px #000000;
 			border-radius:8px;
 			width:88%;
 			height:85%;
