@@ -863,21 +863,21 @@ hr{
 #head7eli{
 				display:flex;
 				max-width:30%;
-				margin-left:29%;
+				margin-left:31%;
 }
 #head7eli p{
       margin-top:10px;
 				margin-left:5%;
 }
 #conimg{
-				margin-left:36%;
+				margin-left:39%;
 }
 #conimg a{
 				margin-left:5%;
 }				
 #profiles{
-				margin-left:35%;	
-				width:30%;		
+				margin-left:38%;	
+				width:21%;		
 }	
 #pi{
 			width:35px;	
@@ -888,7 +888,7 @@ hr{
 }
 #footer{
     margin-left:7%;
-			margin-top:135px;
+			margin-top:140px;
 			position:absolute;
 }
 
